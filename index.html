@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project of E-Commerce Website use media queries to make responsive</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/util.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/unpkg.com_swiper@8.4.7_swiper-bundle.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="images/flipkart.jpg.jpg" alt="icon">
+            </div>
+            <ul>
+                <li><a class="x" href="#">Home</a></li>
+                <li><a class="x" href="#">About</a></li>
+                <li><a class="x" href="#">Contact</a></li>
+
+                <div class="search">
+                    <input type="text" placeholder="Search for products,Brands and More"><i class="fa fa-search"></i>
+                </div>
+            </ul>
+            <i class="fa fa-briefcase"></i>
+            <div class="seller">Become a Seller</div>
+
+            <div class="hd"><i class="fa fa-user-o"></i>
+                <div class="sing">Sign in</div><i class="fa fa-angle-down"></i>
+                <ul class="signmenu">
+                    <li class="menuhead"><span>
+                            <h4 style="cursor: pointer;">New Customer?</h4>
+                        </span><span>
+                            <h4 style="color: #2874f0;cursor: pointer;">Sign Up</h4>
+                        </span></li>
+                    <hr>
+                    <li class="p"><i class="fa fa-user" id="space"></i>My Profile</li>
+                    <li class="p"><i class="fa fa-cart-plus" id="space"></i>Flipkart Plus Zone</li>
+                    <li class="p"><i class="fa fa-ship" id="space"></i>Orders</li>
+                    <li class="p"><i class="fa fa-heart-o" id="space"></i>WishList</li>
+                    <li class="p"><i class="fa fa-trophy" id="space"></i>Rewards</li>
+                    <li class="p"><i class="fa fa-gift" id="space"></i>Gifts Carts</li>
+                </ul>
+            </div>
+
+            <i class="fa fa-shopping-cart"></i>
+            <div class="carts">Cart</div>
+
+            <div class="tdots"><i class="fa fa-ellipsis-v"></i>
+                <ul class="threemenu">
+                    <i class="fa fa-bell"></i><span>
+                        <li><a class="y" href="#">Notification Preference</a></li>
+                    </span>
+                    <i class="fa fa-phone"><span></i>
+                    <li><a class="y" href="#">24x7 Customer Care</a></li></span>
+                    <i class="fa fa-bullhorn"></i><span>
+                        <li><a class="y" href="#">Advertise</a></li>
+                    </span>
+                    <i class="fa fa-download"></i><span>
+                        <li><a class="y" href="#">Download App</a></li>
+                    </span>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="maincontainer">
+            <div class="container1">
+                <div class="b1" id="box">
+                    <img src="images/container1/first.jpg" alt="images">
+                    <h4>Grocery</h4>
+                </div>
+                <div class="b2" id="box">
+                    <img src="images/container1/second.jpg" alt="images">
+                    <h4>Mobiles</h4>
+                </div>
+                <div class="b3" id="box">
+                    <img src="images/container1/third.jpg" alt="images">
+                    <h4>Fashion<i class="fa fa-angle-down" style="color:rgba(0, 0, 0, 0.766)"></i></h4>
+                </div>
+                <div class="b4" id="box">
+                    <img src="images/container1/fourth.jpg" alt="images">
+                    <h4>Electronics<i class="fa fa-angle-down" style="color:rgba(0, 0, 0, 0.766)"></i></h4>
+                </div>
+                <div class="b5" id="box">
+                    <img src="images/container1/five.jpg" alt="images">
+                    <h4>Home & Furniture<i class="fa fa-angle-down" style="color:rgba(0, 0, 0, 0.766)"></i></h4>
+                </div>
+                <div class="b6" id="box">
+                    <img src="images/container1/six.jpg" alt="images">
+                    <h4>Appliances</h4>
+                </div>
+                <div class="b7" id="box">
+                    <img src="images/container1/seven.jpg" alt="images">
+                    <h4>Travel</h4>
+                </div>
+                <div class="b8" id="box">
+                    <img src="images/container1/eight.jpg" alt="images">
+                    <h4>Beauty,Toys & More<i class="fa fa-angle-down" style="color:rgba(0, 0, 0, 0.766)"></i></h4>
+                </div>
+                <div class="b9" id="box">
+                    <img src="images/container1/naen.jpg" alt="images">
+                    <h4>Two Wheelers<i class="fa fa-angle-down" style="color:rgba(0, 0, 0, 0.766)"></i></h4>
+                </div>
+            </div>
+            <div class="slider swiper">
+                <!-- <div class="btns">
+                    <button><i class="fa fa-angle-left"></i></button>
+                </div> -->
+                <div class="slider-image swiper-wrapper">
+                    <img src="images/container2/first1.jpg" alt="bg-img" class="swiper-slide">
+                    <img src="images/container2/second2.jpg" alt="bg-img" class="swiper-slide"> 
+                    <img src="images/container2/third3.jpg" alt="bg-img" class="swiper-slide">
+                    <img src="images/container2/4th.jpg" alt="bg-img" class="swiper-slide">
+                    <img src="images/container2/5th.jpg" alt="bg-img" class="swiper-slide">   
+                    <img src="images/container2/6th.jpg" alt="bg-img" class="swiper-slide" >
+                    <img src="images/container2/7th.jpg" alt="bg-img" class="swiper-slide">
+                    <img src="images/container2/8th.jpg" alt="bg-img" class="swiper-slide">
+                </div>
+                <!-- <div class="btns1">
+                    <button><i class="fa fa-angle-right"></i></button>
+                </div> -->
+                <div class="swiper-pagination"></div>
+                <!-- Add Navigation -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+
+            <div class="container3">
+                <h2>Beauty,Food Toys & More</h2>
+                <button style="cursor: pointer;"><i class="fa fa-angle-right"></i></button>
+                <div class="boxs">
+                    <div class="m1" id="mx">
+                        <img src="images/container3/fb1.jpg" alt="images">
+                        <div class="line">
+                            <p>Dry Fruits</p>
+                            <p style="font-weight: bolder;">Upto 75% Off</p>
+                        </div>
+                    </div>
+                    <div class="m2" id="mx">
+                        <img src="images/container3/fb2.jpg" alt="images">
+                        <div class="line">
+                            <p>Yoga Mats</p>
+                            <p style="font-weight: bolder; font-size: 18px;">From <i class="fa fa-rupee"
+                                    style="font-size: 15px;"></i> 150</p>
+                        </div>
+                    </div>
+                    <div class="m3" id="mx">
+                        <img src="images/container3/fb3.jpg" alt="images">
+                        <div class="line">
+                            <p>Geared Cycle</p>
+                            <p style="font-weight: bolder; font-size: 18px;">From <i class="fa fa-rupee"
+                                    style="font-size: 15px;"></i> 3999</p>
+                        </div>
+                    </div>
+                    <div class="m4" id="mx">
+                        <img src="images/container3/fb4.jpg" alt="images">
+                        <div class="line">
+                            <p>Soft Toys</p>
+                            <p style="font-weight: bolder;">Up to 70% Off</p>
+                        </div>
+                    </div>
+                    <div class="m5" id="mx">
+                        <img src="images/container3/fb5.jpg" alt="images">
+                        <div class="line">
+                            <p>Non Geared Cycle</p>
+                            <p style="font-weight: bolder;">Up to 40% Off</p>
+                        </div>
+                    </div>
+                    <div class="m6" id="mx">
+                        <img src="images/container3/fb6.jpg" alt="images">
+                        <div class="line">
+                            <p>Gym Essential</p>
+                            <p style="font-weight: bolder; font-size: 18px;">From <i class="fa fa-rupee"
+                                    style="font-size: 15px;"></i> 139</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-4">
+                <div class="leftside">
+                    <div class="text">
+                        <h2>Hand-Picked Home Decor</h2>
+                        <button class="leftsidebut"> <i class="fa fa-angle-right"></i></button>
+                    </div>
+                    <div class="imgtop">
+                        <div class="img1">
+                            <img src="images/side-image-container-5/img1.jpg.jpg" alt="imgs">
+                            <!-- <div class="para"> -->
+                            <p>Water Bottles</p>
+                            <p style="font-weight: bolder;">Min. 50% Off</p>
+                            <!-- </div> -->
+                        </div>
+                        <div class="img2">
+                            <img src="images/side-image-container-5/img2.webp" alt="images">
+                            <p>Condiment sets</p>
+                            <p style="font-weight: bolder;">Min. 50% Off</p>
+                        </div>
+                    </div>
+                    <div class="imgbuttom">
+                        <div class="img3">
+                            <img src="images/side-image-container-5/img-3.jpg" alt="imgs">
+                            <p>Condiment sets</p>
+                            <p style="font-weight: bolder;">Min. 50% Off</p>
+                        </div>
+                        <div class="img4">
+                            <img src="images/side-image-container-5/img-4.jpg" alt="images">
+                            <p>Condiment sets</p>
+                            <p style="font-weight: bolder;">Min. 50% Off</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-side">
+                    <div class="right-side-text">
+                        <h2>Capture Every Moments</h2>
+                        <p>Explore our Camera and Photography Gear </p>
+                    </div>
+                    <div class="rightsideimg">
+                        <img src="images/side-image-container-5/Types-of-Lenses.png" alt="images">
+                    </div>
+
+                    <div>
+                        <button class="buttons">Expore Camera <i class="fa fa-angle-right"></i></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-5">
+                <div class="leftside1">
+                    <div class="text">
+                        <h2>Get Set For Sports</h2>
+                        <button class="leftsidebut"> <i class="fa fa-angle-right"></i></button>
+                    </div>
+                    <div class="imgtop1">
+                        <div class="img11">
+                            <img src="images/container-5/b1.jpg" alt="imgs" style="height: 160px;">
+                            <p>Men's Tracksuits</p>
+                            <p style="font-weight: bolder;">Min. 50% Off</p>
+                        </div>
+                        <div class="img21">
+                            <img src="images/container-5/b2.jpg" alt="images">
+                            <p>Adult Cycle</p>
+                            <p style="font-weight: bolder;">Min. 50% Off</p>
+                        </div>
+                    </div>
+                    <div class="imgbuttom1">
+                        <div class="img31">
+                            <img src="images/container-5/b3.jpg" alt="imgs">
+                            <p>Men's Cap</p>
+                            <p style="font-weight: bolder;">Min. 50% Off</p>
+                        </div>
+                        <div class="img41">
+                            <img src="images/container-5/b4.jpg" alt="images">
+                            <p>Sports Shoes</p>
+                            <p style="font-weight: bolder;">Min. 50% Off</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="leftside1">
+                    <div class="text">
+                        <h2>Rakhi Gifting Special's</h2>
+                        <button class="leftsidebut"> <i class="fa fa-angle-right"></i></button>
+                    </div>
+                    <div class="imgtop1">
+                        <div class="img11">
+                            <img src="images/container-5/b11.jpg" alt="imgs" style="height: 160px;">
+                            <p>Smart Watches</p>
+                            <p style="font-weight: bolder;">Min. 90% Off</p>
+                        </div>
+                        <div class="img21">
+                            <img src="images/container-5/b12.jpg" alt="images">
+                            <p>Verving Sets</p>
+                            <p style="font-weight: bolder;">Min. 50% Off</p>
+                        </div>
+                    </div>
+                    <div class="imgbuttom1">
+                        <div class="img31">
+                            <img src="images/container-5/b13.jpg" alt="imgs">
+                            <p>Dinner Sets</p>
+                            <p style="font-weight: bolder;">Min. 20% Off</p>
+                        </div>
+                        <div class="img41">
+                            <img src="images/container-5/b14.jpg" alt="images">
+                            <p>Decor Lightings</p>
+                            <p style="font-weight: bolder;">Min. 80% Off</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="leftside1">
+                    <div class="text">
+                        <h2>Monsoon Essential</h2>
+                        <button class="leftsidebut"> <i class="fa fa-angle-right"></i></button>
+                    </div>
+                    <div class="imgtop1">
+                        <div class="img11">
+                            <img src="images/container-5/b21.jpg" alt="imgs" style="height: 160px;">
+                            <p style="font-size: 15.5px;">Smart Bluetooth's</p>
+                            <p style="font-weight: bolder;">Min. 40% Off</p>
+                        </div>
+                        <div class="img21">
+                            <img src="images/container-5/b22.jpg" alt="images">
+                            <p>Face Wash</p>
+                            <p style="font-weight: bolder;">Min. 65% Off</p>
+                        </div>
+                    </div>
+                    <div class="imgbuttom1">
+                        <div class="img31">
+                            <img src="images/container-5/b23.jpg" alt="imgs" style="height: 160px;">
+                            <p>Power Bank</p>
+                            <p style="font-weight: bolder;">Min. 10% Off</p>
+                        </div>
+                        <div class="img41">
+                            <img src="images/container-5/b24.jpg" alt="images">
+                            <p>Wardrobes</p>
+                            <p style="font-weight: bolder;">Min. 50% Off</p>
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+
+            <div class="container-6">
+                <h2>Fashion Best Sellers</h2>
+                <div class="box-imgs">
+                    <div class="images">
+                       <img src="images/container6/i1.jpg" alt="">
+                       <p>Safari,Wildcraft</p>
+                       <p style="font-weight: bold;">Min 65% Off</p> 
+                    </div>
+                    <div class="images">
+                        <img src="images/container6/i2.jpg" alt="">
+                        <p>Anmi,Dirastri</p>
+                        <p style="font-weight: bold;">Min 65-90% Off</p> 
+                    </div>
+                    <div class="images">
+                        <img src="images/container6/i3.jpg" alt="">
+                        <p>Jelvellery</p>
+                        <p style="font-weight: bold;">Min 70% Off</p> 
+                    </div>
+                    <div class="images">
+                        <img src="images/container6/i4.jpg" alt="">
+                        <p>Ketch,Mats</p>
+                        <p style="font-weight: bold;">Under <i class="fa fa-rupee"> 399</i></p>
+                    </div>
+                    <div class="images">
+                        <img src="images/container6/i5.jpg" alt="">
+                        <p>Cricket bat's</p>
+                        <p style="font-weight: bold;">Under <i class="fa fa-rupee"> 999</i></p>
+                    </div>
+                    <div class="images">
+                        <img src="images/container6/i6.jpg" alt="">
+                        <p>Night pant's</p>
+                        <p style="font-weight: bold;">Under <i class="fa fa-rupee"> 199</i></p>
+                    </div>
+                    
+                </div>
+                
+            </div>    
+        </div>
+    </main>
+    <footer class="flex-all-center">
+        <p>Copyright&copy;E-Commerce Website</p>
+    </footer>
+</body>
+<script src="js/unpkg.com_swiper@8.4.7_swiper-bundle.min.js"></script>
+
+
+<script src="js/second.js"></script>
+
+<script src="js/pro.js"></script>
+</html>

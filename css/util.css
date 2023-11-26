@@ -1,0 +1,6 @@
+/* why we create separate css because when ever we need to make container center then writing rpit just use flex-all-center then that container well become center */
+.flex-all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
